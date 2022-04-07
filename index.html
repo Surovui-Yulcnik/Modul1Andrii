@@ -4,39 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Barbershop</title>
   </head>
   <body>
     <!--Header-->
-    <header>
-      <a href="/">
+    <header class="header">
+      <a href="/" class="header-logo">
         <img src="./img/logo.svg" alt="Логотип сайта" />
       </a>
-      <nav>
-        <ul>
-          <li><a href="">О нас</a></li>
-          <li><a href="">Услуги и цены</a></li>
-          <li><a href="">Мастера</a></li>
-          <li><a href="">Контакты</a></li>
+      <nav class="header-navigation">
+        <ul class="header-list">
+          <li class="header-item"><a href="" class="header-link">О нас</a></li>
+          <li class="header-item">
+            <a href="./portfolio.html" class="header-link">Услуги и цены</a>
+          </li>
+          <li class="header-item"><a href="" class="header-link">Мастера</a></li>
+          <li class="header-item"><a href="" class="header-link">Контакты</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">онлайн-запись</button>
+      <a class="header-tel" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="header-btn" type="button">онлайн-запись</button>
     </header>
     <main>
       <!--Hero-->
-      <section>
-        <ul>
-          <li>
-            <a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item">
+            <a class="hero-link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              >Instagram</a
+            >
           </li>
-          <li>
-            <a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
+          <li class="hero-item">
+            <a class="hero-link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              >Youtube</a
+            >
           </li>
         </ul>
-        <p lang="en">A hair salon for men in Kyiv</p>
-        <h1 lang="en">BarberShop</h1>
-        <p>Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
+        <p class="hero-top-text" lang="en">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title" lang="en">BarberShop</h1>
+        <p class="hero-boottom-text">
+          Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+        </p>
       </section>
 
       <!--Наші роботи-->
