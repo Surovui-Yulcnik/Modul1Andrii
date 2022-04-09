@@ -1,16 +1,109 @@
+:root {
+  --header-color: #ffffff;
+  --main-title-color: #ffffff;
+  --second-title-color: #303030;
+  --main-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --accent-color: #ff6c00;
+  --main-text-color: #555555;
+  --second-text-color: #9da4bd;
+  --third-text-color: #303030;
+  --address-color: #9da4bd;
+}
+
 body {
-  font-family: 'Open Sans', Tahoma, sans-serif;
-  /* color: rgb(43, 97, 97); */
+  font-family: 'Open Sans', tahoma, sans-serif;
 }
 
-* {
-  color: blue;
+.link {
+  text-decoration: none;
 }
 
-p {
-  color: rgb(245, 35, 35);
+.list {
+  list-style: none;
 }
 
-[href] {
-  color: darkgreen;
+/* тимчасовий колір */
+.header {
+  background-color: cadetblue;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--header-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--header-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--main-btn-color);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--third-text-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--main-title-color);
+  background-color: cadetblue;
+}
+
+.hero-boottom-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
