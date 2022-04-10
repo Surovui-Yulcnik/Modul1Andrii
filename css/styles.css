@@ -23,6 +23,52 @@ body {
   list-style: none;
 }
 
+/*------------------------------------------ Захований заголовок */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.boottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+/*------------------- Header--------------------- */
+
 /* тимчасовий колір */
 .header {
   background-color: cadetblue;
@@ -55,12 +101,6 @@ body {
 }
 
 .header-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color: var(--main-btn-color);
 }
 
@@ -68,6 +108,8 @@ body {
 .header-btn:focus {
   background-color: var(--accent-color);
 }
+
+/*-------------------------- Hero---------------------- */
 
 .hero-link {
   font-weight: 600;
@@ -82,12 +124,11 @@ body {
   color: var(--accent-color);
 }
 
+.hero-content {
+  background-color: #303030;
+}
+
 .hero-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: rgba(157, 164, 189, 0.6);
 }
 
@@ -97,13 +138,104 @@ body {
   line-height: 1.18;
   letter-spacing: 0.05em;
   color: var(--main-title-color);
-  background-color: cadetblue;
 }
 
 .hero-boottom-text {
+  color: var(--second-text-color);
+}
+
+/*--------------------------- About------------------------ */
+.about-top-text {
+  color: var(--third-text-color);
+}
+
+.about-title {
+  color: var(--second-title-color);
+}
+
+.about-bottom-text {
+  color: var(--main-text-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.about-btn {
+  color: var(--second-btn-color);
+}
+
+/*------------------- Price---------------------- */
+.price {
+  background-color: #303030;
+}
+.price-top-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.price-title {
+  color: var(--main-title-color);
+}
+.price-item-text {
+  color: var(--second-text-color);
+}
+.price-btn {
+  color: var(--main-btn-color);
+}
+
+/*------------------- Reasons---------------------- */
+.reasons-item-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--third-text-color);
+}
+.reasons-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--third-text-color);
+}
+.reasons-top-text {
+  color: var(--third-text-color);
+}
+.reasons-title {
+  color: var(--second-title-color);
+}
+.reasons-bottom-text {
+  color: var(--main-text-color);
+}
+
+/*------------------- Masters---------------------- */
+.masters-top-text {
+  color: var(--third-text-color);
+}
+
+.masters-title {
+  color: var(--second-title-color);
+}
+
+.masters-item-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.67;
+  line-height: 1.39;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: var(--second-text-color);
+  color: var(--second-title-color);
+}
+.masters-item-text {
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/*------------------- Gallery---------------------- */
+.gallery-top-text {
+  color: var(--third-text-color);
 }
