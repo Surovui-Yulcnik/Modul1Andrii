@@ -1,0 +1,6 @@
+.text {
+  width: 200px;
+  height: 200px;
+  border: 10px solid rgb(198, 173, 255);
+  padding: 10px;
+}

@@ -9,6 +9,7 @@
   --second-text-color: #9da4bd;
   --third-text-color: #303030;
   --address-color: #9da4bd;
+  --typical-margine: 20px;
 }
 
 body {
@@ -21,6 +22,38 @@ body {
 
 .list {
   list-style: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid darkolivegreen;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
 }
 
 /*------------------------------------------ Захований заголовок */
@@ -59,7 +92,6 @@ body {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
 .boottom-text {
@@ -73,6 +105,8 @@ body {
 /* тимчасовий колір */
 .header {
   background-color: cadetblue;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link {
@@ -127,10 +161,12 @@ body {
 
 .hero-content {
   background-color: #303030;
+  padding: 272px 0 206px 96px;
 }
 
 .hero-top-text {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margine);
 }
 
 .hero-title {
@@ -139,23 +175,33 @@ body {
   line-height: 1.18;
   letter-spacing: 0.05em;
   color: var(--main-title-color);
+  margin-bottom: var(--typical-margine);
 }
 
 .hero-boottom-text {
   color: var(--second-text-color);
+  max-width: 400px;
 }
 
 /*--------------------------- About------------------------ */
+.about {
+  padding-top: 139px;
+  padding-bottom: 121px;
+}
+
 .about-top-text {
   color: var(--third-text-color);
+  margin-bottom: var(--typical-margine);
 }
 
 .about-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margine);
 }
 
 .about-bottom-text {
   color: var(--main-text-color);
+  margin-bottom: var(--typical-margine);
 }
 
 .about-text {
@@ -163,6 +209,7 @@ body {
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  margin-bottom: 40px;
 }
 
 .about-btn {
@@ -172,12 +219,25 @@ body {
 /*------------------- Price---------------------- */
 .price {
   background-color: #303030;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 .price-top-text {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margine);
 }
 .price-title {
   color: var(--main-title-color);
+  margin-bottom: 44px;
+}
+
+.price-list {
+  border: 2px solid white;
+  padding: 30px 40px;
+}
+
+.price-item {
+  margin-bottom: var(--typical-margine);
 }
 .price-item-text {
   color: var(--second-text-color);
@@ -187,6 +247,17 @@ body {
 }
 
 /*------------------- Reasons---------------------- */
+.reasons {
+  padding-top: 114px;
+  padding-bottom: 137px;
+}
+
+.reasons-item {
+  width: 170px;
+  height: 130px;
+  border: 2px solid black;
+}
+
 .reasons-item-count {
   font-weight: 700;
   font-size: 42px;
@@ -194,30 +265,45 @@ body {
   text-align: center;
   letter-spacing: 0.05em;
   color: var(--third-text-color);
+  margin-bottom: 6px;
+  display: block;
 }
 .reasons-item-text {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
+  text-align: center;
   color: var(--third-text-color);
 }
 .reasons-top-text {
   color: var(--third-text-color);
+  margin-bottom: var(--typical-margine);
 }
 .reasons-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margine);
 }
 .reasons-bottom-text {
   color: var(--main-text-color);
 }
 
 /*------------------- Masters---------------------- */
+.masters {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
 .masters-top-text {
   color: var(--third-text-color);
+  margin-bottom: var(--typical-margine);
 }
 
 .masters-title {
   color: var(--second-title-color);
+  margin-bottom: 44px;
+}
+
+.masters-img {
+  margin-bottom: 30px;
 }
 
 .masters-item-title {
@@ -227,6 +313,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+  margin-bottom: 8px;
 }
 .masters-item-text {
   font-size: 14px;
@@ -237,6 +324,12 @@ body {
 }
 
 /*------------------- Gallery---------------------- */
+.gallery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .gallery-top-text {
   color: var(--third-text-color);
+  margin-bottom: 44px;
 }
