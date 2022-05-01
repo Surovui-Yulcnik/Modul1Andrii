@@ -196,6 +196,9 @@ button {
   background-color: #303030;
   padding: 272px 0 206px 96px;
   flex-grow: 1;
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+    url(../img/hero.jpg);
+  background-size: cover;
 }
 
 .hero-top-text {
@@ -265,9 +268,14 @@ button {
 
 /*------------------- Price---------------------- */
 .price {
-  background-color: #303030;
+  background-color: #111319;
   padding-top: 130px;
   padding-bottom: 130px;
+  background-image: url(../img/prices.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .price-item-text:nth-child(2n) {
@@ -404,7 +412,46 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  margin-bottom: 30px;
 }
+
+.masters-soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.masters-soc-link {
+  width: 44px;
+  height: 44px;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #303030;
+}
+
+.masters-soc-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.masters-soc-link:hover {
+  background-color: black;
+  fill: var(--accent-color);
+}
+
+/* .masters-soc-link:hover {
+  background-color: black;
+} */
+
+/* .masters-soc-icon {
+  fill: currentColor;
+} */
+
+/* .masters-soc-link:hover .masters-soc-icon {
+  fill: var(--accent-color);
+} */
 
 /*------------------- Gallery---------------------- */
 .gallery {
